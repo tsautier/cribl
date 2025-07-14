@@ -22,7 +22,7 @@ Edit the `Eval` step of the pipeline:
 
 The `wef_security_events` pipeline from the `Microsoft Sentinel` pack would suffice for most of the mapping, but there are some columns that can be further improved
 
-The adapted pipeline below tries to much the ingestion behaviour of security events ingested via AMA (Azure Monitor Agent)
+The adapted pipeline below tries to match the ingestion behaviour of security events ingested via AMA (Azure Monitor Agent)
 
 ### 2.0. Prepare lookup tables
 
