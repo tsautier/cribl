@@ -96,7 +96,7 @@ name.replace(/^_raw_Event.*_/,"")
 
 ### 2.4. Lookup to get LogonTypeName from LogonType and EventLevelName from Level.
 
-#### LogonTypeName
+#### 2.4.1. LogonTypeName
 
 Lookup file path: `windows_logon_type.csv`
 
@@ -110,7 +110,7 @@ Lookup fields:
 |---|---|
 |`LogonTypeName`|`LogonTypeName`|
 
-#### EventLevelName
+#### 2.4.2. EventLevelName
 
 Lookup file path: `windows_event_level.csv`
 
