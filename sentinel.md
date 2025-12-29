@@ -88,7 +88,7 @@ Select the Cribl application:
 
 ![image](https://github.com/user-attachments/assets/8082053c-80f6-4852-a02a-8670258713a5)
 
-## 2.4. Retrieve the logs ingestion API URI
+### 2.4. Retrieve the logs ingestion API URI
 
 Ref: https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-ingestion-api-overview#uri
 
