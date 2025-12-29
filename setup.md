@@ -20,11 +20,7 @@ curl -sLo - $(curl https://cdn.cribl.io/dl/latest-x64) | tar zxvC /opt
 |5986|TCP|WinRM for Windows Event Collector input|
 
 ```sh
-firewall-cmd --permanent --add-port 9000/tcp
-firewall-cmd --permanent --add-port 9514/udp
-firewall-cmd --permanent --add-port 9514/tcp
-firewall-cmd --permanent --add-port 5986/tcp
-firewall-cmd --reload
+firewall-cmd --permanent --add-port 9000/tcp --add-port 9514/udp --add-port 9514/tcp --add-port 5986/tcp && firewall-cmd --reload
 ```
 
 ### 1.3. Setup `cribl` user
